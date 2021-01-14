@@ -13,7 +13,7 @@ app.set('reconnectTime', 300000); //5 minutos
 app.set('jwt', jwt); //Para desencriptar y encriptar el token
 app.set('crypto', crypto); //Para encriptar contraseñas en la bbdd
 app.set('moment', moment); //Para manejar fechas
-app.set('db', "mongodb+srv://admin:gps@gps-sszmk.mongodb.net/test?retryWrites=true&w=majority");
+app.set('db', "mongodb+srv://admin:...");
 app.set('dbName', 'gps'); //Nombre de la base de datos
 app.set('port', 8080); //Puerto utilizado
 app.set('currentTime', function(){ //Obtener hora actual sin segundos ni milisegundos en objeto Moment
